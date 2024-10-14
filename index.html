@@ -1,0 +1,86 @@
+<html>
+<head>
+    <title>Jozefien Buydens</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=EB+Garamond" rel="stylesheet">
+    <style>
+        body{
+            background: #fff;
+            color: #000;
+            color: rgb(19, 19, 19);
+            font-style: italic;
+            font-family: 'EB Garamond', serif;
+            background-image: url('jozefien_background.png');
+            background-size: cover;
+        }
+        .container{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 500px;
+            height: 300px;
+            margin: -150px 0 0 -250px;
+            background: #fff;
+            box-shadow: 0 0 20px #000;
+            border-radius: 3px;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        @media only screen and (max-width: 540px) {
+            .container {
+                width: 300px;
+                margin: -150px 0 0 -150px;
+            }
+            .contact__item{
+                width: 260px;
+                height: 30px;
+                white-space: nowrap;
+                overflow-x: hidden;
+                text-overflow: clip;
+            }
+        }
+        .name{
+            text-align: right;
+            font-size: 32px;
+            line-height: 26px;
+            text-transform: uppercase;
+        }
+        .firstname{
+            margin-right: 3px;
+        }
+        .lastname{
+            margin-left: 3px;
+        }
+        .contact{
+            font-size: 18px;
+            margin-top: 100px;
+            text-decoration-style: wavy;
+            text-decoration-skip: none;
+            text-decoration-skip-ink: none;
+            -webkit-text-decoration-skip: none;
+        }
+        .contact a, .contact a:visited{
+            color: #000;
+        }
+        .contact a{
+            text-decoration-line: overline underline;
+            text-decoration: underline wavy rgb(234, 61, 142);
+        }
+        .contact a:hover{
+            text-decoration: underline wavy yellow;
+        }
+    </style>
+</head>
+<body>
+    <div class='container'>
+        <div class='name'>
+            <div class='firstname'>Jozefien</div>
+            <div class='lastname'>Buydens</div>
+        </div>
+        <div class='contact'>
+            <div class='contact__item'><a href='mailto:jozefien.buydens@gmail.com' target='_blank'>jozefien.buydens@gmail.com &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></div>
+            <div class='contact__item'><a href='https://www.instagram.com/jozefienbuydens/' target='_blank'>instagram &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></div>
+        </div>
+    </div>
+</body>
+</html>
